@@ -126,6 +126,34 @@
             tools:layout_constraintRight_creator="1" />
 
         <Button
+            android:id="@+id/button22"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="show"
+            android:tag="constraint_example_7"
+            android:text="Barrier"
+            app:layout_constraintLeft_toLeftOf="@+id/button21"
+            app:layout_constraintRight_toRightOf="@+id/button21"
+            app:layout_constraintTop_toBottomOf="@+id/button21"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="show"
+            android:tag="constraint_example_8"
+            android:text="chains"
+            app:layout_constraintLeft_toLeftOf="@+id/button22"
+            app:layout_constraintRight_toRightOf="@+id/button22"
+            app:layout_constraintTop_toBottomOf="@+id/button22"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <Button
             android:id="@+id/button30"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
